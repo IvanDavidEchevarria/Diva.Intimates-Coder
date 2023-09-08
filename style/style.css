@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecera-pagina {
+  background-color: #fbefe3;
+  font-family: "Lora", serif;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #d8d9d8;
+}
+.cabecera-pagina a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.logo img {
+  width: 200px;
+  height: auto;
+  border: 1px solid #d8d9d8;
+  border-radius: 10px;
+}
+
+.header-container {
+  font-family: "Lora", serif;
+  background-color: white;
+  padding: 10px;
+  border-top: 1px solid #d8d9d8;
+  border-bottom: 1px solid #d8d9d8;
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  font-weight: 600;
+}
+.header-container nav {
+  background-color: white;
+}
+.header-container nav ul li {
+  margin: 0 20px;
+}
+.header-container nav ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.header-container nav ul li a:hover {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.header-container nav form button {
+  color: black;
+  font-weight: 600;
+  border: 1px solid #d8d9d8;
+}
+.header-container nav form button:hover {
+  color: black;
+  border: 1px solid #d8d9d8;
+  background-color: #fbefe3;
+}
+.header-container nav form button:active {
+  color: black;
+  border: 1px solid #d8d9d8;
+  background-color: #d8d9d8;
+}
+
+#productos-container {
+  background-color: #fbefe3;
+  text-align: center;
+  border-bottom: 1px solid #d8d9d8;
+  padding: 20px;
+  align-items: center;
+}
+#productos-container p {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  padding: 20px;
+}
+#productos-container a {
+  text-decoration: none;
+  color: black;
+}
+#productos-container img {
+  height: 350px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+#productos-container video {
+  height: 350px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+#productos-container .catalogo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+#productos-container .catalogo-container .producto {
+  margin: 10px 10px 10px 10px;
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+#productos-container .producto2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+#productos-container .producto2 img {
+  border: 1px solid #d8d9d8;
+  padding: 2px;
+}
+#productos-container .producto2 video {
+  border: 1px solid #d8d9d8;
+  padding: 2px;
+}
+
+.wpp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
+.wpp img {
+  width: 80px;
+  height: auto;
+  object-fit: cover;
+  transition: 1s;
+}
+.wpp img:hover {
+  width: 80px;
+  height: auto;
+  object-fit: cover;
+  transform: rotate(360deg);
+}
+
+#footer-container {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  align-items: start;
+  padding: 20px;
+  justify-content: space-around;
+}
+#footer-container img {
+  height: 30px;
+  width: 100px;
+  border: 1px solid #ccc;
+  object-fit: contain;
+  margin: 5px;
+}
+#footer-container p {
+  font-family: "Lora", serif;
+  font-weight: 600;
+  font-size: larger;
+}
+#footer-container .pago-img-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#footer-container .medio-envio-img {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#footer-container .redes-img {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=style.css.map */

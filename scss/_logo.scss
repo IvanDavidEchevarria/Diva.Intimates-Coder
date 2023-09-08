@@ -1,0 +1,24 @@
+.cabecera-pagina {
+    background-color: $color;
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid $color2;
+        a {
+            text-decoration: none;
+            color: black ;
+            font-weight: 600;
+        }
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+        img {
+            width: 200px;
+            height: auto ;
+            border: 1px solid $color2;
+            border-radius: 10px;
+        }
+}

@@ -1,0 +1,42 @@
+#footer-container {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    align-items: start;
+    padding: 20px;
+    justify-content: space-around;
+        img {
+            height: 30px;
+            width: 100px;
+            border: 1px solid #ccc;
+            object-fit: contain;
+            margin: 5px;
+        }
+
+        p {
+                font-family: 'Lora', serif;
+                font-weight: 600;
+                font-size: larger;
+        }
+
+        
+        .pago-img-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+
+        .medio-envio-img {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .redes-img {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+}
