@@ -184,4 +184,13 @@
   flex-direction: row;
 }
 
+@media (max-width: 768px) {
+  #footer-container p {
+    font-family: "Lora", serif;
+    font-weight: 600;
+    font-size: larger;
+    font-size: small;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
