@@ -68,9 +68,9 @@
   background-color: #fbefe3;
 }
 .header-container nav form button:active {
-  color: black;
-  border: 1px solid #d8d9d8;
-  background-color: #d8d9d8;
+  color: black !important;
+  border: 1px solid #d8d9d8 !important;
+  background-color: #d8d9d8 !important;
 }
 
 #productos-container {
